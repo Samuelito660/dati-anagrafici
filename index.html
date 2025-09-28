@@ -9,22 +9,37 @@
 
     <form action="index.php" method="get">
 
-        <label for="nome">Nome:</label>
-        <input type="text" name="first_name">
+        <label for="nome">Nome : </label>
+        <input type="text" name="name">
+        <br>
 
-        <label for="cognome">Cognome:</label>
-        <input type="text" name="last_name">
+        <label for="cognome">Cognome : </label>
+        <input type="text" name="surname">
+        <br>
 
-        <label for="prodotti">Prodotti:</label>
+        <label for="indirizzo">Indirizzo : </label>
+        <input type="text" name="address">
+        <br>
+
+        <label for="telefono">Telefono : </label>
+        <input type="text" name="cell">
+        <br>
+
+    
+        <label for="prodotti">Prodotti : </label>
         <select name="products" id="products">
-            <option value="mela">Mela:</option>
-            <option value="pera">Pera:</option>
-            <option value="banana">Banana:</option>
+            <option value="mela">Mela 2€</option>
+            <option value="pera">Pera 3.2€</option>
+            <option value="banana">Banana 1.5€</option>
         </select>
+        <br>
 
-        <label for="num_prodotti">Numero Prodotti:</label>
-        <input type="number" name="products_name">
+        <label for="num_prodotti">Numero Prodotti : </label>
+        <input type="number" name="n_products">
+        <br>
+
         <input type="submit">
+
 
     </form>
     
